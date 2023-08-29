@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/log f.png">
+    <title>Fotos da cidade</title>
+</head>
+    <body>
+        <header>
+            <h1>Álbum de Fotos da Cidade</h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="historia">Historia da Cidade </a></li>
+                    <li> <a href="album_de_fotos.html">Álbum de Fotos</a></li>
+                    <li> <a href="informacoes_geograficas.html">Informações Geográficas</a></li>
+                    <li> <a href="pontos_turisticos.html">Pontos Turisticos</a></li>
+                    <li> <a href="servicos.html">Serviços</a></li>
+                </ul>
+            </nav>
+        <main>
+        <h2>Fotos da História da Cidade</h2>
+        
+        <img src="img/praca.jpg">
+        <img src="img/praca2.jpg"> <img src="img/100anos.jpg"> 
+        <img src="img/palm.jpg">
+
+        <main>
+            <h2>Envie Suas Fotos da Cidade</h2>
+            <form enctype="multipart/form-data">
+                <ul>
+                    <li>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" required autofocus minlength="3" placeholder="Digite seu nome completo..." />
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" minlength="5" placeholder="Digite o e-mail que você mais usa">
+                    </li>
+                        
+                    <li>
+                        <label for="estado">Estado:</label>
+                        <select name="estado" id="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PE">Pernambucu</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergite</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="DF">Distrito Federal</option>
+                
+                        </select>
+                    </li>
+                    <li>
+                    
+                        <label for="local-foto">Local da Foto:</label>
+                        <input type="text" name="local-foto" id="local-foto" placeholder="Informe o local da cidade de palmares onde foi tirada a foto" />
+                
+                    </li>
+                    <li>
+                        <label for="foto">Escolha e Envie Sua foto</label>
+                        <input type="file" name="foto" id="foto"/>
+                    </li>
+
+                    
+                    <li>
+                        <button type="submit">Enviar</button>
+                    
+                    </li>
+                
+                </ul>
+            </form>
+
+        </main>
+            <footer>
+                <p>Contato: cmm@a.palmares.ifpe.edu.br</p>
+            </footer>
+        </header>
+    </body>
+</html>
